@@ -9,6 +9,7 @@ timeout(gen, ms)
 ```
 
 `gen` - a genarator function
+
 `ms` - millisecond. can use '3s' or '200ms', which https://www.npmjs.com/package/ms support
 
 ## example
