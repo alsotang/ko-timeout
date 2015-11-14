@@ -1,0 +1,25 @@
+{
+  "name": "ko-timeout",
+  "version": "1.0.0",
+  "description": "Error on timeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alsotang/ko-timeout.git"
+  },
+  "keywords": [
+    "timeout",
+    "co",
+    "yield",
+    "generator"
+  ],
+  "author": "alsotang <alsotang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alsotang/ko-timeout/issues"
+  },
+  "homepage": "https://github.com/alsotang/ko-timeout#readme"
+}
