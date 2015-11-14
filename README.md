@@ -1,5 +1,7 @@
 # ko-timeout
 
+[![Build Status](https://travis-ci.org/alsotang/ko-timeout.svg?branch=master)](https://travis-ci.org/alsotang/ko-timeout)
+
 ## usage
 
 ```js
