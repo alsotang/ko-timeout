@@ -1,6 +1,6 @@
 {
   "name": "ko-timeout",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Error on timeout",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/alsotang/ko-timeout/issues"
   },
-  "homepage": "https://github.com/alsotang/ko-timeout#readme"
+  "homepage": "https://github.com/alsotang/ko-timeout#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-mocha": "^1.1.2",
+    "ms": "^0.7.1"
+  },
+  "devDependencies": {
+    "co-sleep": "0.0.1",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
 }
