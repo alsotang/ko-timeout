@@ -1,6 +1,6 @@
 {
   "name": "ko-timeout",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Error on timeout",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "dependencies": {
     "co": "^4.6.0",
     "co-mocha": "^1.1.2",
+    "custom-error": "^0.2.1",
     "ms": "^0.7.1"
   },
   "devDependencies": {

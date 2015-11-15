@@ -12,6 +12,8 @@ timeout(gen, ms)
 
 `ms` - millisecond. can use '3s' or '200ms', which https://www.npmjs.com/package/ms support
 
+if timeout, `err.name` will be `CoTimeoutError`
+
 ## example
 
 ### should timeout

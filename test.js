@@ -43,6 +43,7 @@ describe('test.js', function () {
         yield sleep(50)
       }, '20')
     } catch (e) {
+      e.name.should.eql('CoTimeoutError')
       e.message.should.eql('timeout: exceed 20ms')
     }
   })
@@ -53,6 +54,7 @@ describe('test.js', function () {
         throw new Error('err')
       }, 20)
     } catch (e) {
+
       e.message.should.eql('err')
     }
   })
