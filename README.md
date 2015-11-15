@@ -24,6 +24,7 @@ try {
     yield sleep(50)
   }, 20)
 } catch (e) {
+  e.name.should.eql('CoTimeoutError')
   e.message.should.eql('timeout: exceed 20ms')
 }
 ```
