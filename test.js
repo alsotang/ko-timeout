@@ -46,4 +46,14 @@ describe('test.js', function () {
       e.message.should.eql('timeout: exceed 20ms')
     }
   })
+
+  it('should catch error', function * () {
+    try {
+      yield timeout(function * () {
+        throw new Error('err')
+      }, 20)
+    } catch (e) {
+      e.message.should.eql('err')
+    }
+  })
 })
